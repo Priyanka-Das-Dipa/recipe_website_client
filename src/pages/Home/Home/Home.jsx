@@ -1,5 +1,11 @@
+import Banner from "../../../components/Banner";
+
 const Home = () => {
-  return <div>this is home</div>;
+  return (
+    <div className=" mx-auto">
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default Home;
